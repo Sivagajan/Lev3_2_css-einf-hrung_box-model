@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1500px;
+    margin: auto;
+}
+
+header{
+    background-image: url('../img/bild.jpg');
+    height: 800px;
+
+}
+
+a{
+    font-family: 'Fredericka the Great';
+    color: whitesmoke;
+    padding: 20px 100px;
+    text-decoration: none;
+}
+
+header>div{
+    margin: 150px 150px;
+}
+h2{
+    font-family: 'Fredericka the Great';
+    color: whitesmoke;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+header>div>p{
+    font-family: 'open sans';
+    width: 290px;
+    text-align: center;
+    color: whitesmoke;
+    margin: 20px auto;
+}
+header>div>p~p{
+    border: 1px solid whitesmoke;
+    width: 150px;
+    padding: 10px;
+}
+
+nav{
+    padding: 20px 50px ;
+    margin: 20px ;
+    float: right;
+}
+
+nav>p{
+    padding: 5px;
+}
+nav>p>a{
+    padding: 20px;
+    font-family: 'open sans';
+}
+
+main h2{
+    font-family: 'Fredericka the Great';
+    color: black;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+main>div>p{
+    padding: 20px ;
+    font-family: 'open sans';
+    width: 550px;
+    text-align: center;
+    color: black;
+    margin: 10px auto;
+}
+
+main>article{
+    text-align: center;
+    font-family: 'open sans';
+    border: 5px double black;
+    margin: 150px auto;
+    width: 200px;
+    padding: 20px 20px;
+}
+
+/* Footer Style */
+
+footer{
+    background-color: rgba(0, 0, 0, 0.584);
+    color: whitesmoke;
+    height: 150px;
+}
+section>article{
+    width: 40%;
+    font-family: 'open sans';
+    padding: 10px 0px 0px 10px;
+
+}
+
+footer>section>article>p{
+    border: 2px solid whitesmoke;
+    text-align: center;
+    width: 100px;
+}
